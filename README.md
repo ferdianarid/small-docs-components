@@ -1,4 +1,4 @@
-# Small Components Docs
+### Small Components Docs
 Small components documentations
 
 <img src="./src/assets/preview.png" alt="preview" />
