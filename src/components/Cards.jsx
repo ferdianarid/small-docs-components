@@ -1,12 +1,11 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import 'styles/index.css'
-import 'styles/cards.css'
 
 const Cards = ({ title, size, description, category, backgrounds, colortext, bgCategory, colorcategory }) => {
     return (
         <React.Fragment>
-            <div className={['rounded-md p-4', `${backgrounds}`, `${colortext}`, `card-${size}`].join(' ')}>
+            <div className={['w-full max-w-[450px] rounded-md p-4', `${backgrounds}`, `${colortext}`, `card-${size}`].join(' ')}>
                 <div className="flex justify-between mb-5 items-center">
                     <h1 className="font-bold -ml-[1px] text-md">{title}</h1>
                     <h1 className={['py-1 px-3 rounded-full font-semibold text-xs', `${bgCategory}`, `${colorcategory}`].join(' ')}>{category}</h1>
