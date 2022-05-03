@@ -1,7 +1,7 @@
 # Small Components Docs
 Small components documentations
 
-<img src="./src/assets/preview.png" alt="preview" />
+<img src="./src/assets/image.png" alt="preview" />
 
 ## Available Scripts
 
