@@ -34,4 +34,5 @@ Snackbar.defaultProps = {
     bgSnackbar: "bg-blue-700",
     icons: 'info'
 }
+
 export default Snackbar
