@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Small Components Docs
+Small components documentations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./src/assets/preview.png" alt="preview" />
 
 ## Available Scripts
 
