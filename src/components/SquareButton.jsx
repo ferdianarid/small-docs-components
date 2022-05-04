@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 const SquareButton = ({ textbutton, bgbutton, border, label }) => {
     return (
         <React.Fragment>
-            <button className={['py-2 px-4 rounded-md text-xs', `${textbutton}`, `${bgbutton}`, `${border}`].join(' ')}>{label}</button>
+            <button className={['py-2 px-4 rounded-[4px] text-xs', `${textbutton}`, `${bgbutton}`, `${border}`].join(' ')}>{label}</button>
         </React.Fragment>
     )
 }
